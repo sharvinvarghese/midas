@@ -53,7 +53,7 @@ def visualize_results(original_image, depth_map):
 # Main Function
 if __name__ == "__main__":
     # Provide the path to your input image
-    input_image_path = r"C:\Users\sharvin1001\Desktop\depthai7jan\aa.png"
+    input_image_path = r"C:\Users\sharvin\Desktop\depthai7jan\aa.png"
 
     # Perform depth estimation
     original_image, depth_map = estimate_depth(input_image_path)
